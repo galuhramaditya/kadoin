@@ -64,20 +64,20 @@ class ProductItemApp extends StatelessWidget {
                                 children: [
                                   SvgPicture.asset(
                                     'assets/icons/Price Tag.svg',
-                                    width: IconSizeApp.m,
-                                    height: IconSizeApp.m,
+                                    width: IconSizeApp.l,
+                                    height: IconSizeApp.l,
                                   ),
                                   Text(
-                                    '30%',
+                                    '$discount%',
                                     style: TextStyleApp.xs(color: ColorApp.baseColor),
                                   ),
                                 ],
                               )
-                            : SizedBox(height: IconSizeApp.m),
+                            : SizedBox(height: IconSizeApp.l),
                         Icon(
                           isFavorite ? Icons.favorite : Icons.favorite_border,
                           color: isFavorite ? ColorApp.primaryColor : ColorApp.disabledAccentColor,
-                          size: IconSizeApp.s,
+                          size: IconSizeApp.m,
                         ),
                       ],
                     ),

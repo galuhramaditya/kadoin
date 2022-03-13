@@ -13,6 +13,8 @@ dependencies:
   auto_size_text: 3.0.0
   proste_bezier_curve: 2.0.2
   carousel_slider: 4.0.0
+  introduction_screen: 3.0.0
+  firebase_core: 1.13.1
   flutter: 
     sdk: flutter
 
@@ -25,5 +27,6 @@ dev_dependencies:
 flutter: 
   assets: 
     - assets/icons/
+    - assets/images/
   uses-material-design: true
 
